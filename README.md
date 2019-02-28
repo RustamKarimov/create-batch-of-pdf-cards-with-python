@@ -21,3 +21,14 @@ To merge al files in cards/ folder
 ```python
 card.merge_all_files()
 ```
+
+You can chanve the constants
+```python
+TEMPLATE_FILE_NAME = 'pass.pdf'     # file to be used as template
+LOCATION = 'cards/'                 # the directory where all of the cards be stored
+
+FONT = 'Arial'                      # Font of the text to be written on the card
+FONT_SIZE = 23                      # Size of the text
+
+pdfmetrics.registerFont(TTFont('Arial', 'Arial.ttf')) # Registers a font
+```
