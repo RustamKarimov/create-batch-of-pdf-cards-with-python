@@ -22,7 +22,7 @@ To merge al files in cards/ folder
 card.merge_all_files()
 ```
 
-You can chanve the constants
+You can change the constants
 ```python
 TEMPLATE_FILE_NAME = 'pass.pdf'     # file to be used as template
 LOCATION = 'cards/'                 # the directory where all of the cards be stored
